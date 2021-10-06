@@ -2,7 +2,7 @@
 	"port": 3000,
 	"sslkey": "./ssl/cert.key",
 	"sslcert": "./ssl/cert.pem",
-	"ssl": true,
+	"ssl": false,
 	"authType": "default",
 	"token": "nihuidoaanca88",
 	"pythonShell": {
