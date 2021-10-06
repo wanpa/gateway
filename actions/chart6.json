@@ -1,0 +1,12 @@
+{
+  "datasource": "irepodb", 
+  "basetype": "file", 
+  "basequery": "sql/image.sql",
+  "where": "",
+  "params": [
+    { "name": "plc_id", "type": "string"}
+  ],
+  "mappings": [
+    { "item": "image_file"    ,"sheet": 1,"cluster": 51,"type": "image","value" : ""}
+  ]
+}
