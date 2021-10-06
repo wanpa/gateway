@@ -1657,7 +1657,7 @@ app.get("/api/v1/getvalue/:action/:controller?", async function (req, res) {
 });
 
 if (config.ssl) {
-	server.listen(port, () => systemlogger.info("Listening on port : " + port));
+	server.listen(port, "0.0.0.0", () => systemlogger.info("Listening on port : " + port));
 } else {
-	app.listen(port, () => systemlogger.info("Listening on port : " + port));
+	app.listen(port, "0.0.0.0", () => systemlogger.info("Listening on port : " + port));
 }
