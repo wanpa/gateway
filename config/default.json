@@ -1,8 +1,6 @@
 {
 	"port": 80,
 	"ssl": true,
-	"sslkey": "./ssl/cert.key",
-	"sslcert": "./ssl/cert.pem",
 	"authType": "default",
 	"token": "nihuidoaanca88",
 	"pythonShell": {
