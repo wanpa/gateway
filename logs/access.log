@@ -1,0 +1,8 @@
+[2021-10-06T11:18:58.002] [INFO] access - ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+[2021-10-06T11:19:50.900] [INFO] access - ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+[2021-10-06T11:20:00.131] [INFO] access - ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+[2021-10-06T11:22:03.358] [INFO] access - ::1 - - "GET /api/v1/getvalue/ HTTP/1.1" 200 50 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+[2021-10-06T11:22:03.660] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3000/api/v1/getvalue/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+[2021-10-06T11:22:12.314] [INFO] access - ::1 - - "GET /api/v1/getvalue/text HTTP/1.1" 200 50 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+[2021-10-06T11:23:01.537] [INFO] access - ::1 - - "GET /api/v1/getvalue/test HTTP/1.1" 200 50 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+[2021-10-06T11:24:40.366] [INFO] access - ::1 - - "GET /api/v1/getvalue/test HTTP/1.1" 200 126 "" "PostmanRuntime/7.28.4"

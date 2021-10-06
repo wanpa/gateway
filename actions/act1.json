@@ -1,0 +1,11 @@
+{
+  "datasource": "plcdata",
+  "params": [
+    {"controller":"%","item":"temp"},
+    {"controller":"%","item":"pressure"}
+    ],
+  "mappings": [
+    { "controller": "%", "item": "temp"   ,"sheet": 1,"cluster": 1,"type": "string","value" : ""},
+    { "controller": "%", "item": "pressure" ,"sheet": 1,"cluster": 2,"type": "string","value" : ""}
+  ]
+}

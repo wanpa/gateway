@@ -1,0 +1,29 @@
+{
+  "appenders": {
+    "consolelog": {
+      "type": "console"
+    },
+    "systemlog": {
+      "type": "dateFile",
+      "filename": "logs/system.log", 
+      "pattern": ".yyyy-MM-dd",
+      "daysToKeep": 7
+    }, 
+    "accesslog": {
+      "type": "dateFile",
+      "filename": "logs/access.log", 
+      "pattern": ".yyyy-MM-dd",
+      "daysToKeep": 7 
+    } 
+  },
+  "categories": { 
+    "default": {
+      "appenders": ["systemlog", "consolelog"],
+      "level": "all" 
+    }, 
+    "access": {
+      "appenders": ["accesslog"],
+      "level": "info" 
+    } 
+  }
+}

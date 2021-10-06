@@ -1,0 +1,42 @@
+{
+  "datasource": "oragwdb",
+  "selectList": [
+    {
+      "name": "list1",
+      "basequery": "select \"PLCアイディー\" as item, \"PLC名\" as label from \"PLCマスター\" where \"PLC名\" is not null and \"表示対象\" = :select1 order by 1",
+      "params": [
+        { "name": "select1", "type": "char" }
+      ]
+    },
+    {
+      "name": "list2",
+      "basequery": "select \"PLCアイディー\" as item, name as label from \"PLCマスター\" where name is not null and \"PLCアイディー\" like :select2 order by 1",
+      "params": [
+        { "name": "select2", "type": "string" }
+      ]
+    }
+  ],
+  "mappings": [
+    {
+      "item": "list1",
+      "sheet": 1,
+      "cluster": 2,
+      "type": "SetItemsToSelect",
+      "value": "PLCA"
+    },
+    {
+      "item": "list2",
+      "sheet": 1,
+      "cluster": 6,
+      "type": "SetItemsToSelect",
+      "value": "PLCB"
+    },
+    {
+      "item": "list1",
+      "sheet": 1,
+      "cluster": 10,
+      "type": "SetItemsToSelect",
+      "value": "PLCC"
+    }
+  ]
+}
