@@ -1,4 +1,0 @@
-{
-    "datasource": "script",
-    "script": "scripts/post_pg.py"
-}

@@ -1,4 +1,0 @@
-{
-    "datasource": "script", 
-    "script": "scripts/power.py"
-}
