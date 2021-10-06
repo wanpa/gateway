@@ -3,8 +3,8 @@
 	"description": "ConMas Gatewayによりあらゆる外部データーソースの情報をリアルタイムにiReporter帳票へ取得することが出来ます。また、外部データーソースへ帳票入力データーを送信することが出来ます。",
 	"website": "https://www.ireporter7.jp/conmas-gateway",
 	"repository": "https://github.com/wanpa/gateway",
-	"logo": "https://i.gyazo.com/3eaebdf5d9ea56bc9ad60952509249f9.png",
-	"success_url": "https://www.ireporter7.jp/conmas-gateway",
+	"logo": "https://i.gyazo.com/aae5e4072d1f8057845772805f6ffdcb.png",
+	"success_url": "/",
 	"keywords": ["comasgateway", "iot"],
 	"addons": ["heroku-postgresql"]
 }

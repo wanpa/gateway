@@ -1,85 +1,58 @@
 {
-  "port": 3000,
-  "ssl": false,
-  "sslkey": "./ssl/cert.key",
-  "sslcert": "./ssl/cert.pem",
-  "authType": "default",
-  "token": "nihuidoaanca88",
-  "pythonShell": {
-    "mode": "text",
-    "encoding": "utf8",
-    "pythonOptions": ["-X", "utf8"]
-  },
-  "uploadFileTypes": {
-    "binary": "bmp;gif;jpg;tif;png",
-    "text": ""
-  },
-  "datasource": [
-    { "name": "conmasgwdb",
-      "type": "postgreSQL",
-      "user": "postgres",
-      "host": "localhost",
-      "database": "gwdb",
-      "password": "cimtops",
-      "port": 5432
-    },
-    { "name": "gwdb",
-      "type": "mssql",
-      "host": "localhost",
-      "user": "sa",
-      "password": "Cimtops123!",
-      "trustServerCertificate": true,
-      "encrypt": true,
-      "instanceName": "MSSQLSERVER01",
-      "database": "gwdb"
-    },
-    { "name": "oragwdb",
-      "type": "oracle",
-      "user": "system",
-      "password": "cimtops",
-      "connectString": "localhost:1521/xe"
-    },
-    { "name": "irepodb",
-      "type": "postgreSQL",
-      "user": "postgres",
-      "host": "localhost",
-      "database": "irepodb",
-      "password": "cimtops",
-      "port": 5432
-    },
-    { "name": "mysqlgwdb",
-      "type": "mysql",
-      "user": "root",
-      "password": "Cimtops123!",
-      "host": "localhost",
-      "port": "3306",
-      "database": "gwdb"
-    },
-    { "name": "plcdata",
-      "type": "iotdswebapi",
-      "url": "http://localhost:5225/api/v1/getvalues",
-      "self_signed_certificate": true,
-      "method": "POST",
-      "headers": {
-        "Content-Type": "application/json",
-        "Authorization": "Bearer XXXXXXXXXXXXXXXXXXXXXXXXXX"
-      }
-    },
-    { "name": "plcput",
-      "type": "iotdswebapi",
-      "url": "http://localhost:5225/api/v1/putvalues",
-      "self_signed_certificate": true,
-      "method": "POST",
-      "headers": {
-        "Content-Type": "application/json",
-        "Authorization": "Bearer XXXXXXXXXXXXXXXXXXXXXXXXXX"
-      }
-    },
-    { "name": "test1",
-      "type": "static"
-    },
-    { "name": "script",
-      "type": "python"
-    }
-  ]
+	"port": 80,
+	"ssl": true,
+	"sslkey": "./ssl/cert.key",
+	"sslcert": "./ssl/cert.pem",
+	"authType": "default",
+	"token": "nihuidoaanca88",
+	"pythonShell": {
+		"mode": "text",
+		"encoding": "utf8",
+		"pythonOptions": ["-X", "utf8"]
+	},
+	"uploadFileTypes": {
+		"binary": "bmp;gif;jpg;tif;png",
+		"text": ""
+	},
+	"datasource": [
+		{ "name": "conmasgwdb", "type": "postgreSQL", "user": "postgres", "host": "localhost", "database": "gwdb", "password": "cimtops", "port": 5432 },
+		{
+			"name": "gwdb",
+			"type": "mssql",
+			"host": "localhost",
+			"user": "sa",
+			"password": "Cimtops123!",
+			"trustServerCertificate": true,
+			"encrypt": true,
+			"instanceName": "MSSQLSERVER01",
+			"database": "gwdb"
+		},
+		{ "name": "oragwdb", "type": "oracle", "user": "system", "password": "cimtops", "connectString": "localhost:1521/xe" },
+		{ "name": "irepodb", "type": "postgreSQL", "user": "postgres", "host": "localhost", "database": "irepodb", "password": "cimtops", "port": 5432 },
+		{ "name": "mysqlgwdb", "type": "mysql", "user": "root", "password": "Cimtops123!", "host": "localhost", "port": "3306", "database": "gwdb" },
+		{
+			"name": "plcdata",
+			"type": "iotdswebapi",
+			"url": "http://localhost:5225/api/v1/getvalues",
+			"self_signed_certificate": true,
+			"method": "POST",
+			"headers": {
+				"Content-Type": "application/json",
+				"Authorization": "Bearer XXXXXXXXXXXXXXXXXXXXXXXXXX"
+			}
+		},
+		{
+			"name": "plcput",
+			"type": "iotdswebapi",
+			"url": "http://localhost:5225/api/v1/putvalues",
+			"self_signed_certificate": true,
+			"method": "POST",
+			"headers": {
+				"Content-Type": "application/json",
+				"Authorization": "Bearer XXXXXXXXXXXXXXXXXXXXXXXXXX"
+			}
+		},
+		{ "name": "test1", "type": "static" },
+		{ "name": "script", "type": "python" }
+	]
 }
