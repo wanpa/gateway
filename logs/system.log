@@ -75,3 +75,129 @@ TypeError: Cannot read property 'replace' of undefined
     }
   ]
 }
+[2021-10-06T15:26:49.885] [INFO] default - ConMas Gateway (Ver.1.7.210700)
+[2021-10-06T15:26:49.888] [INFO] default - ssl:false
+[2021-10-06T15:26:49.888] [INFO] default - authType:default
+[2021-10-06T15:26:50.056] [INFO] default - Listening on port : NODE_ENV=production
+[2021-10-06T15:34:15.928] [INFO] default - ConMas Gateway (Ver.1.7.210700)
+[2021-10-06T15:34:15.931] [INFO] default - ssl:false
+[2021-10-06T15:34:15.931] [INFO] default - authType:default
+[2021-10-06T15:34:16.042] [ERROR] default - uncaughtException: Error: listen EADDRINUSE: address already in use NODE_ENV=production
+    at Server.setupListenHandle [as _listen2] (node:net:1268:21)
+    at listenInCluster (node:net:1333:12)
+    at Server.listen (node:net:1430:5)
+    at Function.listen (/Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/nishidaminoru/dev/herokubutton/index.js:1662:6)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+Exception origin: uncaughtException
+[2021-10-06T15:34:19.808] [INFO] default - ConMas Gateway (Ver.1.7.210700)
+[2021-10-06T15:34:19.811] [INFO] default - ssl:false
+[2021-10-06T15:34:19.811] [INFO] default - authType:default
+[2021-10-06T15:34:19.916] [ERROR] default - uncaughtException: Error: listen EADDRINUSE: address already in use NODE_ENV=production
+    at Server.setupListenHandle [as _listen2] (node:net:1268:21)
+    at listenInCluster (node:net:1333:12)
+    at Server.listen (node:net:1430:5)
+    at Function.listen (/Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/nishidaminoru/dev/herokubutton/index.js:1662:6)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+Exception origin: uncaughtException
+[2021-10-06T15:34:32.805] [INFO] default - ConMas Gateway (Ver.1.7.210700)
+[2021-10-06T15:34:32.808] [INFO] default - ssl:false
+[2021-10-06T15:34:32.808] [INFO] default - authType:default
+[2021-10-06T15:34:32.919] [ERROR] default - uncaughtException: Error: listen EADDRINUSE: address already in use NODE_ENV=production
+    at Server.setupListenHandle [as _listen2] (node:net:1268:21)
+    at listenInCluster (node:net:1333:12)
+    at Server.listen (node:net:1430:5)
+    at Function.listen (/Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/nishidaminoru/dev/herokubutton/index.js:1662:6)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+Exception origin: uncaughtException
+[2021-10-06T15:34:38.107] [INFO] default - ConMas Gateway (Ver.1.7.210700)
+[2021-10-06T15:34:38.109] [INFO] default - ssl:false
+[2021-10-06T15:34:38.109] [INFO] default - authType:default
+[2021-10-06T15:34:38.222] [ERROR] default - uncaughtException: Error: listen EADDRINUSE: address already in use NODE_ENV=production
+    at Server.setupListenHandle [as _listen2] (node:net:1268:21)
+    at listenInCluster (node:net:1333:12)
+    at Server.listen (node:net:1430:5)
+    at Function.listen (/Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/nishidaminoru/dev/herokubutton/index.js:1662:6)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+Exception origin: uncaughtException
+[2021-10-06T15:35:52.379] [INFO] default - ConMas Gateway (Ver.1.7.210700)
+[2021-10-06T15:35:52.382] [INFO] default - ssl:false
+[2021-10-06T15:35:52.382] [INFO] default - authType:default
+[2021-10-06T15:35:52.489] [ERROR] default - uncaughtException: Error: listen EADDRINUSE: address already in use NODE_ENV=production
+    at Server.setupListenHandle [as _listen2] (node:net:1268:21)
+    at listenInCluster (node:net:1333:12)
+    at Server.listen (node:net:1430:5)
+    at Function.listen (/Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/nishidaminoru/dev/herokubutton/index.js:1662:6)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+Exception origin: uncaughtException
+[2021-10-06T15:37:12.487] [INFO] default - ConMas Gateway (Ver.1.7.210700)
+[2021-10-06T15:37:12.490] [INFO] default - ssl:false
+[2021-10-06T15:37:12.490] [INFO] default - authType:default
+[2021-10-06T15:37:12.598] [ERROR] default - uncaughtException: Error: listen EADDRINUSE: address already in use NODE_ENV=production
+    at Server.setupListenHandle [as _listen2] (node:net:1268:21)
+    at listenInCluster (node:net:1333:12)
+    at Server.listen (node:net:1430:5)
+    at Function.listen (/Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/nishidaminoru/dev/herokubutton/index.js:1662:6)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+Exception origin: uncaughtException
+[2021-10-06T15:37:26.319] [INFO] default - ConMas Gateway (Ver.1.7.210700)
+[2021-10-06T15:37:26.322] [INFO] default - ssl:false
+[2021-10-06T15:37:26.322] [INFO] default - authType:default
+[2021-10-06T15:37:26.433] [INFO] default - Listening on port : 3000
+[2021-10-06T15:37:33.008] [ERROR] default - API error. : 
+TypeError: Cannot read property 'replace' of undefined
+    at authChaeck (/Users/nishidaminoru/dev/herokubutton/index.js:57:42)
+    at /Users/nishidaminoru/dev/herokubutton/index.js:719:8
+    at Layer.handle [as handle_request] (/Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/router/index.js:410:3)
+[2021-10-06T15:38:12.266] [INFO] default - ConMas Gateway (Ver.1.7.210700)
+[2021-10-06T15:38:12.268] [INFO] default - ssl:false
+[2021-10-06T15:38:12.268] [INFO] default - authType:default
+[2021-10-06T15:38:12.368] [INFO] default - Listening on port : 3000
+[2021-10-06T15:38:17.161] [ERROR] default - API error. : 
+TypeError: Cannot read property 'replace' of undefined
+    at authChaeck (/Users/nishidaminoru/dev/herokubutton/index.js:57:42)
+    at /Users/nishidaminoru/dev/herokubutton/index.js:719:8
+    at Layer.handle [as handle_request] (/Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/nishidaminoru/dev/herokubutton/node_modules/express/lib/router/index.js:410:3)

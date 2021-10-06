@@ -6,3 +6,8 @@
 [2021-10-06T11:22:12.314] [INFO] access - ::1 - - "GET /api/v1/getvalue/text HTTP/1.1" 200 50 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
 [2021-10-06T11:23:01.537] [INFO] access - ::1 - - "GET /api/v1/getvalue/test HTTP/1.1" 200 50 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
 [2021-10-06T11:24:40.366] [INO] access - ::1 - - "GET /api/v1/getvalue/test HTTP/1.1" 200 126 "" "PostmanRuntime/7.28.4"
+[2021-10-06T15:37:33.313] [INFO] access - ::1 - - "GET /api/v1/getvalue/test HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+[2021-10-06T15:37:35.340] [INFO] access - ::1 - - "GET /?share/manifestJS HTTP/1.1" 404 139 "http://localhost:3000/?share/manifestJS" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+[2021-10-06T15:38:17.469] [INFO] access - ::1 - - "GET /api/v1/getvalue/test HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+[2021-10-06T15:38:19.260] [INFO] access - ::1 - - "GET /?share/manifestJS HTTP/1.1" 404 139 "http://localhost:3000/?share/manifestJS" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+[2021-10-06T15:38:48.529] [INFO] access - ::1 - - "GET /?share/manifestJS HTTP/1.1" 404 139 "http://localhost:3000/?share/manifestJS" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"

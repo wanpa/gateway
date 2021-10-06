@@ -18,7 +18,7 @@ const accesslogger = log4js.getLogger("access");
 
 systemlogger.info(`ConMas Gateway (Ver.${require("./package.json").version})`);
 
-let port = process.env.PORT || 5000; //デフォルトリッスンポート
+let port = process.env.PORT || config.port; //デフォルトリッスンポート
 
 // コマンド引数でリッスンポート指定された場合
 if (process.argv.length > 2) {

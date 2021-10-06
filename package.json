@@ -4,7 +4,7 @@
 	"description": "ConMas Gateway Server Application",
 	"main": "index.js",
 	"scripts": {
-		"start": "node index.js NODE_ENV=production",
+		"start": "node index.js",
 		"install-service": "winser -i -a",
 		"uninstall-service": "winser -r -x",
 		"test": "echo \"Error: no test specified\" && exit 1"
