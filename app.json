@@ -6,12 +6,7 @@
 	"logo": "https://i.gyazo.com/aae5e4072d1f8057845772805f6ffdcb.png",
 	"success_url": "/",
 	"keywords": ["comasgateway", "iot"],
-	  "buildpacks": [
-	    {
-	      "url": "heroku/nodejs"
-	    },
-	    {
-	      "url": "heroku/python"
-	    }
-	  ]
+	"buildpacks": [
+		{"url": "heroku/nodejs"}
+	]
 }
