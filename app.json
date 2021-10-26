@@ -7,6 +7,7 @@
 	"success_url": "/",
 	"keywords": ["comasgateway", "iot"],
 	"buildpacks": [
+		{"url": "heroku/python"},
 		{"url": "heroku/nodejs"}
 	]
 }
