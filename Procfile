@@ -1,1 +1,1 @@
-web: pip install -r requirements.txt & node index.js
+web: heroku buildpacks & node index.js
