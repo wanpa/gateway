@@ -1,0 +1,9 @@
+matplotlib
+qrcode
+Image
+python-barcode
+pandas
+xlrd
+requests
+Japanera
+psycopg2
