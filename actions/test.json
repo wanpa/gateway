@@ -3,7 +3,7 @@
 	"data": {
 		"result": {
 			"code": 0,
-			"description": "Success!!!"
+			"description": "Success!"
 		},
 		"apply": [{ "item": "text", "sheet": 1, "cluster": 0, "type": "string", "value": "ABCDEFG" }]
 	}
